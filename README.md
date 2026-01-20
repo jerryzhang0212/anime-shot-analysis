@@ -3,21 +3,21 @@
 **Anime Shot Analysis** is a computer vision–based analysis tool designed to bridge **film language** and **AI-assisted animation workflows**.
 
 This project analyzes a single anime frame and extracts cinematic features such as composition, subject scale, shot type, and emotional tone.  
-It is an exploratory step toward building AI tools that assist **2D animation creation**, especially for reducing manual workload in complex scenes.
+It serves as an exploratory step toward building AI tools that assist **2D animation creation**, especially for reducing manual workload in complex scenes.
 
 ---
 
 ## Motivation
 
 Traditional 2D animation relies heavily on manual experience to determine:
-- Shot scale and composition
-- Subject importance
-- Emotional tone conveyed by color and framing
+- Shot scale and composition  
+- Subject importance  
+- Emotional tone conveyed by color and framing  
 
 This project explores whether **computer vision models** can help quantify these cinematic decisions, forming a foundation for future tools such as:
-- AI-assisted keyframe analysis
-- Animation interpolation guidance
-- Intelligent shot consistency checking
+- AI-assisted keyframe analysis  
+- Animation interpolation guidance  
+- Intelligent shot consistency checking  
 
 ---
 
@@ -27,7 +27,7 @@ This project explores whether **computer vision models** can help quantify these
 
 The user uploads a single anime frame (PNG / JPG) for analysis.
 
-01_upload_interface.png
+![Upload Interface](anime%20shot%20sample/01_upload_interface.png)
 
 ---
 
@@ -35,32 +35,32 @@ The user uploads a single anime frame (PNG / JPG) for analysis.
 
 The original input image is displayed before analysis.
 
-02_original_frame.png
+![Original Frame](anime%20shot%20sample/02_original_frame.png)
 
 ---
 
 ### 3. Visual Analysis
 
-The system performs multiple visual analyses:
+The system performs multiple visual analyses, including:
 - **Rule of Thirds grid**
 - **Main subject detection**
 - **Color palette extraction**
 
-03_visual_analysis.png
+![Visual Analysis](anime%20shot%20sample/03_visual_analysis.png)
 
 ---
 
 ### 4. Shot Metrics
 
 Quantitative metrics are extracted from the frame, including:
-- Subject position
-- Bounding box
-- Subject size ratio
-- Shot type
-- Composition bias
-- Emotion tone
+- Subject position  
+- Bounding box  
+- Subject size ratio  
+- Shot type  
+- Composition bias  
+- Emotion tone  
 
-04_shot_metrics.png
+![Shot Metrics](anime%20shot%20sample/04_shot_metrics.png)
 
 ---
 
@@ -68,7 +68,7 @@ Quantitative metrics are extracted from the frame, including:
 
 Based on the extracted features, the system generates a natural-language interpretation describing the cinematic intent of the shot.
 
-05_interpretation_output.png
+![Interpretation Output](anime%20shot%20sample/05_interpretation_output.png)
 
 ---
 
