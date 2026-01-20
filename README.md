@@ -27,7 +27,7 @@ This project explores whether **computer vision models** can help quantify these
 
 The user uploads a single anime frame (PNG / JPG) for analysis.
 
-![Upload Interface](01_upload_interface.png)
+01_upload_interface.png
 
 ---
 
@@ -35,7 +35,7 @@ The user uploads a single anime frame (PNG / JPG) for analysis.
 
 The original input image is displayed before analysis.
 
-![Original Frame](02_original_frame.png)
+02_original_frame.png
 
 ---
 
@@ -46,7 +46,7 @@ The system performs multiple visual analyses:
 - **Main subject detection**
 - **Color palette extraction**
 
-![Visual Analysis](03_visual_analysis.png)
+03_visual_analysis.png
 
 ---
 
@@ -60,7 +60,7 @@ Quantitative metrics are extracted from the frame, including:
 - Composition bias
 - Emotion tone
 
-![Shot Metrics](04_shot_metrics.png)
+04_shot_metrics.png
 
 ---
 
@@ -68,7 +68,7 @@ Quantitative metrics are extracted from the frame, including:
 
 Based on the extracted features, the system generates a natural-language interpretation describing the cinematic intent of the shot.
 
-![Interpretation Output](05_interpretation_output.png)
+05_interpretation_output.png
 
 ---
 
